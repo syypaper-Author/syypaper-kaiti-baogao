@@ -2,7 +2,7 @@
 
 `syypaper-kaiti-baogao` 是面向中文本科、硕士和博士开题报告的完整工作流 Skill。它能够根据学历层次、论文题目和可选参考文献，完成文献检索或核验、研究设计、正文写作、技术路线图绘制、学校模板填充及 Word 版式检查。
 
-项目网站：[syypaper.com](https://syypaper.com/)
+我们自研的ai科研平台：[syypaper.com](https://syypaper.com/)
 
 > 本工具用于辅助文献整理、研究设计和文档排版。使用者应遵守所在学校的学术规范，并在提交前自行核对事实、引用和研究方案。
 
@@ -10,9 +10,12 @@
 
 ```text
 syypaper-kaiti-baogao/
+├── LICENSE                         # 个人非商业使用许可
 ├── README.md
-├── assets/                         # README 流程配图（PNG＋SVG）
+├── assets/                         # README 流程配图及企业微信二维码
+│   └── syypaper-wecom-qr.png
 └── syypaper-kaiti-baogao/          # 可安装 Skill 目录
+    ├── LICENSE                     # 随 Skill 分发的同版许可
     ├── SKILL.md
     ├── agents/
     │   └── openai.yaml
@@ -347,3 +350,7 @@ Skill 会展示默认九部分正文结构：
 ```
 
 Skill 随后生成、排版、逐页检查并交付最终文件。
+
+> **许可声明：本项目仅限自然人个人、非商业使用（自用分享同学使用没有问题）。未经 syypaper 事先书面授权，禁止任何商业使用以及企业、机构、组织、团队或客户用途。完整条款详见 [LICENSE](LICENSE)。**
+
+![更多科研skill朋友圈更新](assets/syypaper-wecom-qr.png)

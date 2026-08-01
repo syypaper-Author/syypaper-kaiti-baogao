@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1080" viewBox="0 0 1600 1080" role="img" aria-labelledby="title desc">
+  <title id="title">模板识别、正文结构确认与成品交付流程</title>
+  <desc id="desc">学校模板模式和通用模板模式如何汇合到写作方案确认、文档生成、技术路线图插入、逐页质量检查和最终交付。</desc>
+  <defs>
+    <marker id="arrow3" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L10,5 L0,10 z" fill="#64748b"/>
+    </marker>
+    <filter id="shadow3" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="3" stdDeviation="5" flood-color="#0f172a" flood-opacity="0.10"/>
+    </filter>
+    <style>
+      .title{font:700 38px 'PingFang SC','Microsoft YaHei','Noto Sans CJK SC',sans-serif;fill:#0f172a}
+      .subtitle{font:400 20px 'PingFang SC','Microsoft YaHei','Noto Sans CJK SC',sans-serif;fill:#475569}
+      .lane{font:700 24px 'PingFang SC','Microsoft YaHei','Noto Sans CJK SC',sans-serif;fill:#fff}
+      .t{font:700 20px 'PingFang SC','Microsoft YaHei','Noto Sans CJK SC',sans-serif;fill:#0f172a}
+      .b{font:400 16px 'PingFang SC','Microsoft YaHei','Noto Sans CJK SC',sans-serif;fill:#475569}
+      .white{font:700 20px 'PingFang SC','Microsoft YaHei','Noto Sans CJK SC',sans-serif;fill:#fff}
+      .whiteb{font:400 16px 'PingFang SC','Microsoft YaHei','Noto Sans CJK SC',sans-serif;fill:#dbeafe}
+      .edge{fill:none;stroke:#64748b;stroke-width:3;marker-end:url(#arrow3)}
+      .loop{fill:none;stroke:#d97706;stroke-width:3;stroke-dasharray:8 7;marker-end:url(#arrow3)}
+    </style>
+  </defs>
+  <rect width="1600" height="1080" fill="#fff"/>
+  <text x="800" y="62" text-anchor="middle" class="title">模板识别、正文结构确认与成品交付</text>
+  <text x="800" y="96" text-anchor="middle" class="subtitle">学校格式优先；所有模板只操作副本；教师、审核、签名和盖章区域保持空白</text>
+
+  <rect x="80" y="135" width="690" height="60" rx="18" fill="#2563eb"/>
+  <text x="425" y="174" text-anchor="middle" class="lane">学校模板模式</text>
+  <rect x="830" y="135" width="690" height="60" rx="18" fill="#475569"/>
+  <text x="1175" y="174" text-anchor="middle" class="lane">通用模板模式</text>
+
+  <rect x="80" y="230" width="690" height="120" rx="20" fill="#eff6ff" stroke="#93c5fd" stroke-width="2" filter="url(#shadow3)"/>
+  <text x="425" y="267" text-anchor="middle" class="t">1. 接收模板并创建工作副本</text>
+  <text x="425" y="299" text-anchor="middle" class="b">支持 DOC、DOCX、WPS、PDF；扫描件按视觉结构重建可编辑 DOCX</text>
+  <text x="425" y="326" text-anchor="middle" class="b">不修改、不覆盖、不删除用户上传的原始文件</text>
+
+  <rect x="830" y="230" width="690" height="120" rx="20" fill="#f8fafc" stroke="#cbd5e1" stroke-width="2" filter="url(#shadow3)"/>
+  <text x="1175" y="267" text-anchor="middle" class="t">1. 用户确认使用通用模板</text>
+  <text x="1175" y="299" text-anchor="middle" class="b">A4 纵向、规定页边距、标题与正文格式</text>
+  <text x="1175" y="326" text-anchor="middle" class="b">准备展示默认九部分正文结构</text>
+
+  <path d="M425 350 L425 394" class="edge"/>
+  <path d="M1175 350 L1175 394" class="edge"/>
+
+  <rect x="80" y="404" width="690" height="174" rx="20" fill="#eff6ff" stroke="#93c5fd" stroke-width="2" filter="url(#shadow3)"/>
+  <text x="425" y="442" text-anchor="middle" class="t">2. 全面识别原模板</text>
+  <text x="120" y="477" class="b">• 段落、表格、合并单元格、样式、编号和分页</text>
+  <text x="120" y="509" class="b">• 文本框、形状、页眉页脚、批注、修订和逐页视觉结构</text>
+  <text x="120" y="541" class="b">• 区分基本信息、学生正文、管理审核三个区域</text>
+
+  <rect x="830" y="404" width="690" height="174" rx="20" fill="#f8fafc" stroke="#cbd5e1" stroke-width="2" filter="url(#shadow3)"/>
+  <text x="1175" y="442" text-anchor="middle" class="t">2. 展示通用九部分结构</text>
+  <text x="870" y="477" class="b">背景意义 → 国内现状 → 国外现状与评述 → 目标内容</text>
+  <text x="870" y="509" class="b">研究方法与技术路线 → 论文大纲 → 创新与难点</text>
+  <text x="870" y="541" class="b">预期结果与意义 → 研究进度安排</text>
+
+  <path d="M425 578 L425 622" class="edge"/>
+  <path d="M1175 578 L1175 622" class="edge"/>
+
+  <rect x="80" y="632" width="690" height="114" rx="20" fill="#fff7ed" stroke="#fdba74" stroke-width="2" filter="url(#shadow3)"/>
+  <text x="425" y="670" text-anchor="middle" class="t">确认点 ③｜学校正文结构</text>
+  <text x="425" y="702" text-anchor="middle" class="b">按模板继续／修改识别结构／改用通用结构</text>
+  <rect x="830" y="632" width="690" height="114" rx="20" fill="#fff7ed" stroke="#fdba74" stroke-width="2" filter="url(#shadow3)"/>
+  <text x="1175" y="670" text-anchor="middle" class="t">确认点 ③｜通用正文结构</text>
+  <text x="1175" y="702" text-anchor="middle" class="b">确认结构／修改结构／返回并上传学校模板</text>
+
+  <path d="M425 746 L425 782 L800 782 L800 808" class="edge"/>
+  <path d="M1175 746 L1175 782 L800 782 L800 808" class="edge"/>
+
+  <rect x="340" y="818" width="920" height="90" rx="20" fill="#fff7ed" stroke="#fdba74" stroke-width="2" filter="url(#shadow3)"/>
+  <text x="800" y="853" text-anchor="middle" class="t">确认点 ④｜本课题具体写作方案</text>
+  <text x="800" y="884" text-anchor="middle" class="b">确认模板模式、最终正文结构、研究方法、创新点和动态字数分配；回复“继续生成”</text>
+
+  <path d="M800 908 L800 942" class="edge"/>
+  <rect x="80" y="952" width="430" height="88" rx="20" fill="#eff6ff" stroke="#93c5fd" stroke-width="2" filter="url(#shadow3)"/>
+  <text x="295" y="986" text-anchor="middle" class="t">写作与排版</text>
+  <text x="295" y="1017" text-anchor="middle" class="b">填充模板副本或新建通用 DOCX</text>
+  <path d="M510 996 L560 996" class="edge"/>
+  <rect x="565" y="952" width="470" height="88" rx="20" fill="#eff6ff" stroke="#93c5fd" stroke-width="2" filter="url(#shadow3)"/>
+  <text x="800" y="986" text-anchor="middle" class="t">生成并嵌入技术路线图</text>
+  <text x="800" y="1017" text-anchor="middle" class="b">另行导出高清 PNG，优先保留 SVG 源文件</text>
+  <path d="M1035 996 L1085 996" class="edge"/>
+  <rect x="1090" y="952" width="430" height="88" rx="20" fill="#0f766e" filter="url(#shadow3)"/>
+  <text x="1305" y="986" text-anchor="middle" class="white">逐页渲染检查并交付</text>
+  <text x="1305" y="1017" text-anchor="middle" class="whiteb">修复裁切、断表、错位、异常空白等问题</text>
+</svg>

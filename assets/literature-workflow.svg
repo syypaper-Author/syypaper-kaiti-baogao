@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1040" viewBox="0 0 1600 1040" role="img" aria-labelledby="title desc">
+  <title id="title">自动文献检索与核验流程</title>
+  <desc id="desc">从标题分析、检索方案确认到真实性核验、相关性筛选、去重、开放全文查找和文献交付的流程。</desc>
+  <defs>
+    <marker id="arrow2" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L10,5 L0,10 z" fill="#64748b"/>
+    </marker>
+    <filter id="shadow2" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="3" stdDeviation="5" flood-color="#0f172a" flood-opacity="0.10"/>
+    </filter>
+    <style>
+      .title{font:700 38px 'PingFang SC','Microsoft YaHei','Noto Sans CJK SC',sans-serif;fill:#0f172a}
+      .subtitle{font:400 20px 'PingFang SC','Microsoft YaHei','Noto Sans CJK SC',sans-serif;fill:#475569}
+      .t{font:700 20px 'PingFang SC','Microsoft YaHei','Noto Sans CJK SC',sans-serif;fill:#0f172a}
+      .b{font:400 16px 'PingFang SC','Microsoft YaHei','Noto Sans CJK SC',sans-serif;fill:#475569}
+      .small{font:400 15px 'PingFang SC','Microsoft YaHei','Noto Sans CJK SC',sans-serif;fill:#475569}
+      .pill{font:700 16px 'PingFang SC','Microsoft YaHei','Noto Sans CJK SC',sans-serif;fill:#1e40af}
+      .white{font:700 20px 'PingFang SC','Microsoft YaHei','Noto Sans CJK SC',sans-serif;fill:#fff}
+      .edge{fill:none;stroke:#64748b;stroke-width:3;marker-end:url(#arrow2)}
+      .loop{fill:none;stroke:#d97706;stroke-width:3;stroke-dasharray:8 7;marker-end:url(#arrow2)}
+    </style>
+  </defs>
+  <rect width="1600" height="1040" fill="#ffffff"/>
+  <text x="800" y="62" text-anchor="middle" class="title">自动文献检索与核验流程</text>
+  <text x="800" y="96" text-anchor="middle" class="subtitle">先确认检索边界，再核验真实性；先锁定文献编号，再检查公开全文</text>
+
+  <rect x="90" y="140" width="1420" height="84" rx="18" fill="#eff6ff" stroke="#93c5fd" stroke-width="2"/>
+  <text x="130" y="174" class="t">默认数量</text>
+  <text x="130" y="205" class="b">本科 10 中＋5 英　｜　硕士 40 中＋15 英　｜　博士 60 中＋30 英　｜　近 5 年，近 3 年优先</text>
+
+  <rect x="90" y="274" width="250" height="112" rx="18" fill="#f8fafc" stroke="#cbd5e1" stroke-width="2" filter="url(#shadow2)"/>
+  <text x="215" y="312" text-anchor="middle" class="t">1. 标题分析</text>
+  <text x="215" y="343" text-anchor="middle" class="b">关键词、对象、角度</text>
+  <text x="215" y="368" text-anchor="middle" class="b">中英文检索式</text>
+  <path d="M340 330 L385 330" class="edge"/>
+
+  <rect x="390" y="274" width="250" height="112" rx="18" fill="#fff7ed" stroke="#fdba74" stroke-width="2" filter="url(#shadow2)"/>
+  <text x="515" y="312" text-anchor="middle" class="t">确认点 ①</text>
+  <text x="515" y="343" text-anchor="middle" class="b">用户检查检索方案</text>
+  <text x="515" y="368" text-anchor="middle" class="b">回复“确认，开始检索”</text>
+  <path d="M640 330 L685 330" class="edge"/>
+
+  <rect x="690" y="274" width="250" height="112" rx="18" fill="#eff6ff" stroke="#93c5fd" stroke-width="2" filter="url(#shadow2)"/>
+  <text x="815" y="312" text-anchor="middle" class="t">2. 联网检索</text>
+  <text x="815" y="343" text-anchor="middle" class="b">权威数据库与期刊官网</text>
+  <text x="815" y="368" text-anchor="middle" class="b">记录可追溯来源</text>
+  <path d="M940 330 L985 330" class="edge"/>
+
+  <rect x="990" y="274" width="250" height="112" rx="18" fill="#f0fdf4" stroke="#86efac" stroke-width="2" filter="url(#shadow2)"/>
+  <text x="1115" y="312" text-anchor="middle" class="t">3. 真实性核验</text>
+  <text x="1115" y="343" text-anchor="middle" class="b">题名、作者、年份、来源</text>
+  <text x="1115" y="368" text-anchor="middle" class="b">DOI 与缺失字段核对</text>
+  <path d="M1240 330 L1285 330" class="edge"/>
+
+  <rect x="1290" y="274" width="220" height="112" rx="18" fill="#f0fdf4" stroke="#86efac" stroke-width="2" filter="url(#shadow2)"/>
+  <text x="1400" y="312" text-anchor="middle" class="t">4. 去重</text>
+  <text x="1400" y="343" text-anchor="middle" class="b">DOI → 题名</text>
+  <text x="1400" y="368" text-anchor="middle" class="b">作者＋年份＋题名</text>
+
+  <path d="M1400 386 L1400 444 L1175 444 L1175 478" class="edge"/>
+  <rect x="885" y="478" width="580" height="188" rx="22" fill="#f8fafc" stroke="#94a3b8" stroke-width="2" filter="url(#shadow2)"/>
+  <text x="1175" y="516" text-anchor="middle" class="t">5. 两道相关性门槛</text>
+  <rect x="925" y="540" width="220" height="82" rx="16" fill="#dbeafe"/>
+  <text x="1035" y="571" text-anchor="middle" class="pill">门槛 A｜主题相关</text>
+  <text x="1035" y="599" text-anchor="middle" class="small">题名、关键词或摘要直接相关</text>
+  <text x="1175" y="586" text-anchor="middle" style="font:700 26px sans-serif;fill:#64748b">＋</text>
+  <rect x="1205" y="540" width="220" height="82" rx="16" fill="#dcfce7"/>
+  <text x="1315" y="571" text-anchor="middle" style="font:700 16px 'PingFang SC','Microsoft YaHei',sans-serif;fill:#166534">门槛 B｜研究适配</text>
+  <text x="1315" y="599" text-anchor="middle" class="small">对象、理论、方法或情境适配</text>
+  <text x="1175" y="649" text-anchor="middle" class="b">只有 A 类“直接相关”和 B 类“高度相关”进入最终清单</text>
+
+  <rect x="90" y="478" width="650" height="188" rx="22" fill="#fff7ed" stroke="#fdba74" stroke-width="2" filter="url(#shadow2)"/>
+  <text x="415" y="516" text-anchor="middle" class="t">数量不足时的合规处理</text>
+  <text x="130" y="557" class="b">1. 返回实际检得数量、缺口和已使用检索式</text>
+  <text x="130" y="591" class="b">2. 询问是否允许扩大到近 8 年或近 10 年</text>
+  <text x="130" y="625" class="b">3. 未获同意前，不使用早期、低相关或重复文献凑数</text>
+  <path d="M415 478 L415 430 L815 430 L815 386" class="loop"/>
+
+  <path d="M1175 666 L1175 710" class="edge"/>
+  <rect x="885" y="720" width="580" height="108" rx="20" fill="#eff6ff" stroke="#93c5fd" stroke-width="2" filter="url(#shadow2)"/>
+  <text x="1175" y="758" text-anchor="middle" class="t">6. 锁定清单与编号，再检查公开全文</text>
+  <text x="1175" y="791" text-anchor="middle" class="b">仅下载合法免费版本；不绕过付费墙、登录、验证码或机构权限</text>
+  <path d="M885 774 L765 774" class="edge"/>
+
+  <rect x="90" y="720" width="630" height="108" rx="20" fill="#0f766e" filter="url(#shadow2)"/>
+  <text x="405" y="758" text-anchor="middle" class="white">7. 文献交付与确认点 ②</text>
+  <text x="405" y="791" text-anchor="middle" style="font:400 16px 'PingFang SC','Microsoft YaHei',sans-serif;fill:#ccfbf1">Markdown＋CSV＋实际存在时的公开全文 ZIP；用户确认是否采用</text>
+
+  <path d="M405 828 L405 872" class="edge"/>
+  <rect x="90" y="882" width="630" height="90" rx="18" fill="#f0fdf4" stroke="#86efac" stroke-width="2"/>
+  <text x="405" y="918" text-anchor="middle" class="t">用户确认：进入模板与正文结构阶段</text>
+  <text x="405" y="949" text-anchor="middle" class="b">用户修改：以最新完整清单替换，并同步编号与文件</text>
+
+  <rect x="885" y="882" width="580" height="90" rx="18" fill="#f8fafc" stroke="#cbd5e1" stroke-width="2"/>
+  <text x="1175" y="918" text-anchor="middle" class="t">仅需文献：在此结束</text>
+  <text x="1175" y="949" text-anchor="middle" class="b">不再询问学校模板，也不生成开题报告正文</text>
+</svg>

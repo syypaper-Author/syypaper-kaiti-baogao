@@ -4,6 +4,8 @@
 
 我们自研的ai科研平台：[syypaper.com](https://syypaper.com/)
 
+> 🎁 **[免费开题报告礼包码使用指南](docs/free-opening-report-guide.md)**
+
 > 本工具用于辅助文献整理、研究设计和文档排版。使用者应遵守所在学校的学术规范，并在提交前自行核对事实、引用和研究方案。
 
 ## 仓库结构
@@ -14,13 +16,19 @@ syypaper-kaiti-baogao/
 ├── README.md
 ├── assets/                         # README 流程配图及企业微信二维码
 │   └── syypaper-wecom-qr.png
+├── docs/                           # 独立使用指南页面
+│   ├── free-opening-report-guide.md
+│   └── assets/
+│       └── free-opening-report-guide/
 └── syypaper-kaiti-baogao/          # 可安装 Skill 目录
     ├── LICENSE                     # 随 Skill 分发的同版许可
     ├── SKILL.md
+    ├── assets/
+    │   └── syypaper-free-opening-report-gift.png
     ├── agents/
     │   └── openai.yaml
     └── references/
-        └── workflow-v4.md          # V4.0 完整工作流规范
+        └── workflow-v4.md          # 完整工作流规范
 ```
 
 ## 安装
